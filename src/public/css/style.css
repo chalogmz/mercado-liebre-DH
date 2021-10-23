@@ -1,0 +1,524 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+    background: #ebebeb;
+}
+
+/*HEADER*/
+header {
+    background: #eac926;
+    width: 100%;
+}
+
+header .logo {
+    width: 30%;
+    padding-top: 10px;
+    margin-left: 30px;
+}
+
+header .form {
+    margin-left: 730px;
+    margin-top: -120px;
+}
+
+header .form input {
+    width: 30%;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+}
+
+input::placeholder {
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+header .search button {
+    border: none;
+    background: #fff;
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+header .search {
+    margin-left: 1050px;
+    margin-top: -60px;
+}
+
+header .cuotas {
+    margin-left: 1200px;
+    margin-top: -21px;
+}
+
+header nav {
+    margin-top: 100px;
+    margin-left: 30px;
+    display: flex;
+}
+
+header .rigth-nav {
+    display: flex;
+    margin-left: 1245px;
+}
+
+header .rigth-nav li {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+header .left-nav li {
+    margin-right: 10px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header a {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+#icon-nav {
+    margin-left: 5px;
+}
+
+header .menu-burger {
+    display: none;
+}
+
+
+/*BANNER*/ 
+.banner img {
+    width: 100vw;
+}
+
+
+/*MAIN*/
+main {
+    max-width: 80%;
+    margin: auto;
+}
+
+.title-main {
+    font-size: 24px;
+    color: #666;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.last-visit {
+    display: flex;
+    flex-direction: row;
+}
+
+main img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.last-visit, .offerts {
+    display: flex;
+    justify-content: space-around;
+}
+
+article {
+    background: #fff;
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+}
+
+.article-1 {
+    background: #fff;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.article-1:hover {
+    -webkit-box-shadow: 5px 5px 3px -2px rgba(0,0,0,0.23); 
+    box-shadow: 5px 5px 3px -2px rgba(0,0,0,0.23);
+}
+.article-2 {
+    background: #fff;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.article-2:hover {
+    -webkit-box-shadow: 5px 5px 3px -2px rgba(0,0,0,0.23); 
+    box-shadow: 5px 5px 3px -2px rgba(0,0,0,0.23);
+}
+
+.article-3 {
+    background: #fff;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.article-3:hover {
+    -webkit-box-shadow: 5px 5px 3px -2px rgba(0,0,0,0.23); 
+    box-shadow: 5px 5px 3px -2px rgba(0,0,0,0.23);
+}
+
+.article-4 {
+    background: #fff;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.article-4:hover {
+    -webkit-box-shadow: 5px 5px 3px -2px rgba(0,0,0,0.23); 
+    box-shadow: 5px 5px 3px -2px rgba(0,0,0,0.23);
+}
+
+#icon-truck {
+    color:  #39b54a;
+    margin: 15px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background: #fff;
+    border-radius: 50%;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 0px;
+    position: relative;
+    right: -215px;
+    top: -30px;
+}
+
+#icon-truck:hover {
+    transform: rotateZ(270deg);
+    transition: all .5s ease;
+}
+
+.precio {
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.descuento {
+    font-size: 16px;
+    margin-top: 2px;
+    margin-left: 5px;
+    color: #39b54a;
+}
+
+.descripcion {
+    opacity: 0;
+}
+
+.descripcion:hover {
+    font-size: 16px;
+    margin-left: 15px;
+    padding-top: 20px;
+    margin-bottom: 35px;
+    color: #666;
+    opacity: 1;
+}
+
+.text-box {
+    /*display: block;*/
+    border-top: solid 1px #ebebeb;
+}
+
+.precio-descuento {
+    display: flex;
+    flex-direction: row;
+    margin-top: -40px;
+}
+
+
+/*FOOTER*/
+footer {
+    margin-top: 40px;
+    background: #fff;
+    text-align: center;
+}
+
+footer .f {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer h4 {
+    font-size: 16px;
+    color: #666;
+}
+
+footer .text-footer {
+    font-size: 12px;
+}
+
+#icon-footer {
+    color:  #1259c3;
+    font-size: 30px;
+    padding-bottom: 10px;
+    padding-top: 60px;
+}
+
+footer .copy {
+    text-align: left;
+    font-size: 12px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+
+
+/*REGISTER*/
+.formulario, .formulario-login {
+    max-width: 70%;
+    margin: auto;
+}
+
+.formulario form, .login {
+    margin-left: 20%;
+}
+
+input {
+    border-radius: 3px;
+    width: 70%;
+    height: 30px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+input[type=date] {
+    padding-left: 10px;
+    color: #666;
+    font-family: 'Roboto';
+}
+
+.formulario h3 {
+    padding-top: 20px;
+}
+
+#intereses {
+    height: 15px;
+    width: 15px;
+}
+
+.interes {
+    display: flex;
+}
+
+.interes label {
+    margin-top: 18px;
+    padding-left: 20px;
+}
+
+#comprador {
+    height: 13px;
+    width: 13px;
+}
+
+#vendedor {
+    height: 13px;
+    width: 13px;
+}
+
+.perfil-usuario label {
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+#crear-cuenta {
+    background:  #1259c3;
+    color: #fff;
+    width: 30%;
+}
+
+#reset {
+    background: #666;
+    color: #fff;
+    width: 30%;
+    margin-top: 2px;
+}
+
+#enviar {
+    background: #666;
+    color: #fff;
+    width: 20%;
+}
+
+#enviar:hover {
+    background:#0022AA;
+}
+
+.buttom {
+    margin-left: 50px;
+}
+
+.buttom-login {
+    margin-left: 600px;
+}
+
+.login {
+    margin-top: 30px;
+}
+
+
+/*VERSION MOBILE*/
+@media only screen and (max-width: 480px) {
+    header .logo {
+        width: 40%;
+        margin-left: 20px;
+        padding-top: 30px;
+    }
+
+    nav, ul, li, a {
+        display: none;
+    }
+
+    header .form {
+        margin: 0;
+        margin-left: 220px;
+        margin-top: -60px;
+    }
+
+    header .form input {
+        width: 90%;
+        margin-left: -35px;
+    }
+
+    header .search {
+        margin: 0;
+        margin-left: 308px;
+        margin-top: -60px;
+    }
+
+    header .cuotas {
+        margin: 0;
+        font-size: 12px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    header .menu-burger {
+        display: block;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        padding: 10px;
+        color: #fff;
+        background:  #1259c3;
+        margin: auto;
+        border-radius: 5px;
+        margin-top: -70px;
+    }
+    
+    header .menu {
+        padding-bottom: 20px;
+    }
+
+    .title-main {
+        font-size: 24px;
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .last-visit, .offerts {
+        justify-content: none;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .article-1 {
+        background: #fff;
+        margin-bottom: 10px;
+    }
+    .article-2 {
+        background: #fff;
+        margin-bottom: 10px;
+    }
+        
+    .article-3 {
+        background: #fff;
+        margin-bottom: 10px;
+        
+    }
+    .article-4 {
+        background: #fff;
+        margin-bottom: 10px;
+    }
+
+    #icon-truck {
+        margin-left: 20px;
+    }
+
+    .formulario, .formulario-login {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    #crear-cuenta {
+        width: 50%;
+    }
+
+    #reset {
+        width: 50%;
+        margin: 0;
+    }
+
+    .perfil-usuario {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .perfil-usuario label {
+        margin: 0;
+        margin-top: -45px;
+    }
+
+    .buttom-login {
+        margin: 0;
+        margin-left: 145px;
+        width: 50%;
+    }
+
+    #enviar {
+        width: 40%;
+    }
+
+    .login {
+        margin: 0;
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+
+    footer .f {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+
+/*@media only screen and (min-width: 481px) and (max-width: 790px) {
+    header .form {
+        margin: 0;
+        margin-left: 300px;
+    }
+    header .search {
+        margin: 0;
+    }
+}
